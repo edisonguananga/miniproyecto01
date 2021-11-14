@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: #f9e1f6;
+
+  background-image: url(/ico/Vector.png);
+  background-size: cover;
+  height: 100vh;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #f9e1f6;
+
+  padding: 5px;
+}
+.nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav button {
+  border: none;
+}
+.nav input {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 60%;
+}
+.nav input:hover {
+  border: none;
+  width: 80%;
+}
+
+#iconSearch {
+  background-color: white;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+#iconnav2 {
+  margin-right: 10px;
+}
+
+/*Menu*/
+.menu {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-top: 3px solid tomato;
+  border-bottom: 3px solid tomato;
+  height: 30px;
+}
+
+.menu button,
+.nav button {
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 14pt;
+}
+.menu button:hover,
+.nav button:hover {
+  color: blueviolet;
+  border-bottom: 5px solid blueviolet;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.parte1 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.parte1 button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40%;
+  background-color: tomato;
+  color: white;
+  font-size: 14pt;
+}
+.parte1 button:hover {
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 14pt;
+}
+.parte1 h1 {
+  margin: 0;
+  font-size: 45pt;
+}
+.parte1 p {
+  font-size: 25pt;
+}
+
+.parte2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
